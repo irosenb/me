@@ -1,7 +1,46 @@
 body {
   text-align: center;
+  font-size: 1.33em;
 }
 
 .me {
   text-transform: uppercase;
+  text-shadow: 1px 1px 2px gray;
+  font-size: 3em;
+  color: #89D;
+}
+
+.bio {
+	width: 50%;
+	margin: 0 auto;
+
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+	color: grey;
+}
+
+.links {
+	list-style-type: none;
+	padding-left: 0;
+
+}
+.links li{
+	display: inline;
+	margin-right: 1em;
+	
+}
+
+.quora a {
+  color: #a82400;
+}
+
+.twitter a {
+  color: #00acee;
+}
+
+.github a {
+  color: #171515;
 }
