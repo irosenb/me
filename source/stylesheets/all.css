@@ -5,7 +5,7 @@ body {
 
 .me {
   text-transform: uppercase;
-  text-shadow: 1px 1px 2px gray;
+  /*text-shadow: 1px 1px 2px gray;*/
   font-size: 3em;
   color: #89D;
 }
@@ -13,7 +13,6 @@ body {
 .bio {
 	width: 50%;
 	margin: 0 auto;
-
 }
 
 a {
@@ -30,7 +29,7 @@ a {
 .links li{
 	display: inline;
 	margin-right: 1em;
-	
+	font-weight: bold;
 }
 
 .quora a {
@@ -43,4 +42,10 @@ a {
 
 .github a {
   color: #171515;
+}
+
+@media (max-width: 630px) {
+	.me {
+		font-size: 2.1em;
+	}
 }
