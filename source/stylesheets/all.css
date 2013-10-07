@@ -11,6 +11,7 @@ body {
 }
 
 .bio {
+	line-height: 1.4em;
 	width: 50%;
 	margin: 0 auto;
 }
@@ -18,7 +19,7 @@ body {
 a {
 	outline: none;
 	text-decoration: none;
-	color: grey;
+	color: grey; 
 }
 
 .links {
@@ -47,5 +48,15 @@ a {
 @media (max-width: 630px) {
 	.me {
 		font-size: 2.1em;
+	}
+}
+
+@media (max-width: 440px) {
+	.me {
+		font-size: 1.6em;
+	}
+
+	.bio {
+		width: 80%;
 	}
 }
