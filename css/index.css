@@ -2,4 +2,31 @@ h1.title {
 	font-family: oxygen;
 	font-weight: bold;
 	font-size: 500%;
+	margin-bottom: 3em;
+}
+
+.page-content {
+}
+
+.about {
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	text-align: center;
+	font-weight: bold;
+	/*text-indent: 900px;*/
+	height: 300px;
+	vertical-align: middle;
+	display: table-cell;
+	color: white;
+	box-shadow: 2px;
+	background-image: url("/assets/photo.JPG");
+}
+
+.about {
+	margin-bottom: 5em;
+}
+
+.links {
+	margin-top: 10em;
 }
