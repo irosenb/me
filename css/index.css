@@ -1,28 +1,47 @@
-h1.title {
+
+body {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.pic {
+	background-image: url("/assets/photo.JPG");
+	width: 300px;
+	height: auto;
+	/*background-size: cover;*/
+}
+
+h1 {
 	font-family: oxygen;
 	font-weight: bold;
-	font-size: 500%;
-	margin-bottom: 1em;
+	font-size: 200%;
 }
+
+.title {
+	font-family: oxygen;
+	font-weight: bold;
+	font-size: 400%;
+	margin-bottom: 0.5em;
+}
+
 
 .page-content {
 }
 
 .about {
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
+	/**/
+	/*background-attachment: fixed;*/
+	/*background-position: center;*/
 	text-align: center;
 	font-weight: bold;
 	/*text-indent: 900px;*/
-	height: 560px;
+	/*height: 560px;*/
 	opacity: 0.6;
-	background-color: black;
+	/*background-color: black;*/
 	vertical-align: middle;
 	display: table-cell;
-	color: white;
-	box-shadow: 2px;
-	background-image: url("/assets/photo.JPG");
+	/*box-shadow: 2px;*/
 }
 
 .about {
