@@ -12,6 +12,10 @@ body {
 	margin: 0;
 }
 
+h1 {
+	text-align: center;
+}
+
 .pic {
 	height: auto;
 	width: 100%;
@@ -35,8 +39,8 @@ body {
 	height: auto;
 }
 
-.project .blib {
-
+.project .title {
+	margin-top: 0px;
 }
 
 .top {
@@ -48,6 +52,12 @@ body {
 	height: 100vh;
 	width: auto;
 }
+
+/*isaac:after {
+	content: "";
+	display: table;
+	clear: both;
+}*/
 
 #hi {
 	font-size: 4em;
