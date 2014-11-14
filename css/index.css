@@ -1,6 +1,19 @@
+body {
+	background-color: #F7F7F7;
+}
+
 a {
 	color: #D94546;
 	text-decoration: none;
+}
+
+h3 a {
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #ac2324;
 }
 
 .page-content {
@@ -22,12 +35,26 @@ h1 {
 }
 
 .project {
-	width: 100%;
-	clear: both;
-	background-color: red;
+	margin-top: 0.5em;
 }
 
-.project .description {
+.project h3 {
+	margin-top: 0;
+}
+
+.contact {
+	/*margin-top: 1em;*/
+	margin: 2em 0;
+	padding-left: 0;
+}
+
+.contact li, .contact h2 {
+	list-style-type: none;
+	display: inline;
+	padding-right: 5px;
+}
+
+/*.project .description {
 	float: right;
 	width: 55%;
 }
@@ -41,7 +68,7 @@ h1 {
 
 .project .title {
 	margin-top: 0px;
-}
+}*/
 
 .top {
 	background-image: url('/assets/me.jpg');
@@ -66,7 +93,7 @@ h1 {
 
 #isaac {
 	font-size: 5em;
-	font-weight: 800;
+	font-weight: 600;
 	position: absolute;
 	top: 2em;
 	/*bottom: 0;*/

@@ -10,67 +10,83 @@ layout: default
 
 <h1>I Build Shit</h1>
 
-<div class="projects">
-	<div class="project" id="maphunt">
-		<img src="/assets/maphunt.png" alt="" class="photo">
-		<div class="description">
+<div class="projects container-fluid">
+	<div class="project row" id="maphunt">
+		<img class="col-md-5 col-xs-12 photo" src="/assets/maphunt.png">
+		<div class="description col-md-7">
 			<h3 class="title"><a href="http://maphunt.me">MapHunt</a></h3>
 			<div class="blib">
-				<p>MapHunt is mapping the world's creators. </p>
-				<p>Me and <a href="http://coultonvento.com">Coulton Vento</a> built this at the Product Hunt hackathon. We were 1 of 7 projects chosen to present in front of the entire hackathon. </p>
+				<p>MapHunt is mapping the world's creators.</p>
+				
+				<p>Me and <a href="http://coultonvento.com">Coulton Vento</a> built this at the Product Hunt hackathon using Ruby on Rails. We were 1 of 7 projects chosen to present in front of the entire hackathon.</p>
 
-				<p>The next day we were <a href="http://www.producthunt.com/posts/maker-hunt">featured</a> on the Product Hunt site. That drew over 16,000 views, comments from figures like <a href="http://www.producthunt.com/posts/maker-hunt#comment_46970">Alexis Ohanian</a> and <a href="http://www.producthunt.com/posts/maker-hunt#comment_46884">Ryan Hoover</a>.</p>
+				<p>The next day we were <a href="http://www.producthunt.com/posts/maker-hunt">featured</a> on the Product Hunt site. That drew over 16,000 views and comments from figures like <a href="http://www.producthunt.com/posts/maker-hunt#comment_46970">Alexis Ohanian</a> and <a href="http://www.producthunt.com/posts/maker-hunt#comment_46884">Ryan Hoover</a>.</p>
+
+				<p>Presented MapHunt at Mashape's first <a href="http://blog.mashape.com/api-crafters-meetup/">meetup</a>. Quite well-recieved. </p>
 			</div>
 		</div>
 	</div>
-	<div class="project">
-		<img src="/assets/cleanist.jpg" alt="" class="photo">
-		<div class='description'>
-			<h3 class="title">Cleanist</h3>
+	<div class="project row">
+		<img class="col-md-5 col-xs-12 photo" src="/assets/medicine.jpg">
+		<div class="description col-md-7">
+			<h3 class="title">Medicine</h3>
+			<div class="blib">
+				<p>An iOS app and Arduino prototype that sends a push notification to your phone when you haven't taken your medicine.</p>
+
+				<p>Built by myself using Arduino and Swift. Prototyped it with my pillbox. Uses Bluetooth Low Energy to detect when you're too far away. </p>
+
+				<p>Medicine is not available for prime time yet. It's not on the App Store, nor is it on Kickstarter. I want to take the prototype and turn it into something more. Let me know if you're interested.</p>
+			</div>
+		</div>
+	</div>
+	<div class="project row">
+		<img class="col-md-5 col-xs-12 photo" src="/assets/guminar.jpg" >
+		<div class="description col-md-7">
+			<h3 class="title"><a href="http://guminar.herokuapp.com/">Guminar</a></h3>
+			<div class="blib">
+				<p>Redesigned Gumroad's now-defunct <a href="https://attendee.gotowebinar.com/rt/165240465310994177">webinar</a> (of course, without their permission). <a href="https://github.com/irosenb/guminar">Built</a> with Ruby on Rails. Used the GoToWebinar API and Gumroad's Ping feature to simulate registering for a webinar.</p>
+
+				<p>Showed it to the Gumroad team, they approved :)</p>
+			</div>
+		</div>
+	</div>
+	<div class="project row">
+		<img class="col-md-5 col-xs-12 photo" src="/assets/cleanist.png">
+		<div class='description col-md-7'>
+			<h3 class="title"><a href="http://cleanist.herokuapp.com">Cleanist</a></h3>
 			<div class="blib">
 				<p>Cleanist declutters your reading list by cleaning out the articles that you don't read. Almost like a self-destruct button for Pocket.</p>
-				 
+
 				<p><a href="http://github.com/irosenb/cleanist">Built</a> in Ruby on Rails.</p>
 			</div>
 		</div>
 	</div>
-	<div class="project">
-		<img src="/assets/cleanist.jpg" alt="" class="photo">
-		<h3 class="title">Catupult</h3>
-		<div class="blib">
-			<p>
-				Sends you a picture of a cat 
-			</p>
+	<div class="project row">
+		<img class="col-md-5 col-xs-12 photo" src="/assets/catupult.png">
+		<div class="description col-md-7">
+			<h3 class="title"><a href="http://catupult.herokuapp.com">Catupult</a></h3>
+			<div class="blib">
+				<p>
+					Sends you a picture of a cat when you're feeling down. Built with a fellow <a href="http://flatironschool.com">Flatiron School</a> student at a Jawbone hackathon in New York. 
+				</p>
+				<p>Uses both the Twillio and Jawbone APIs. Check it out on <a href="http://github.com/irosenb/catupult">Github</a>.</p>
+			</div>
 		</div>
 	</div>
-	<div class="project">Medicine</div>
 </div>
 
 <h1>How I Build</h1>
 
-<div class="tools">
+<div class="tools text-center">
 	<div class="tool">Ruby on Rails</div>
 	<div class="tool">Swift & Objective-C</div>
 	<div class="tool">Javascript</div>
 	<div class="tool">Node.js</div>
-	<div class="tool"></div>
 </div>
-<!-- 
-<br>
 
-<h1>Projects </h1>
-
-<ul class="projects">
-	<li><a href="http://maphunt.me">MapHunt</a></li>
-	<li><a href="http://cleanist.herokuapp.com/">Cleanist</a></li>
-	<li><a href="http://catupult.herokuapp.com">Catupult</a></li>
-	<li><a href="https://github.com/irosenb/medicine">Medicine</a></li>
+<ul class="contact text-center">
+	<li><h2><a href="mailto:irosenb7@gmail.com">Email</a></h2></li>
+	<li><h2><a href="http://twitter.com/irosenb">Twitter</a></h2></li>
+	<li><h2><a href="http://github.com/irosenb">Github</a></h2></li>
+	<li><h2><a href="http://facebook.com/irosenb">Facebook?</a></h2></li>
 </ul>
-
-
-<div class="links">
-	<a href="http://github.com/irosenb">Github</a>
-	<a href="http://twitter.com/irosenb">Twitter</a>
-	<a href="mailto:irosenb7@gmail.com">Email</a>
-	<a href="http://blog.irosenb.com">Blog</a>
-</div> -->
